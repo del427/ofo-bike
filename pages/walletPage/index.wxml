@@ -1,0 +1,26 @@
+<!--pages/walletPage/index.wxml-->
+<view class="wrapper">
+  <view class="wallet-content">
+    <view class="content-title">我的金额</view>
+    <view class="content-money">{{money}}</view>
+    <view class="content-about">余额说明</view>
+  </view>
+  <view class="wallet-btn">
+    <button type="primary" bindtap="moneyPage">充值</button>
+  </view>
+  <view class="wallet-title mycar">
+    <text>我的用车卷</text>
+    <text>></text>
+  </view>
+  <view class="wallet-title mymoney">
+    <text>我的押金</text>
+    <view>
+      <text class="color">99元押金退款</text>
+      <text>></text>
+    </view>
+  </view>
+  <view class="wallet-title mybout">
+    <text>关于ofo</text>
+    <text>></text>
+  </view>
+</view>

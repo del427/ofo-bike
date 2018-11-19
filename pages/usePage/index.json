@@ -1,0 +1,10 @@
+{
+ 
+    "navigationBarBackgroundColor": "#FFE700",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "立即用车",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  
+}

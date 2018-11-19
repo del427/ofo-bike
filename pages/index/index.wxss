@@ -1,0 +1,44 @@
+/* pages/index/index.wxss */
+.wrapper{
+  width:100%;
+  height:100vh;
+}
+.wrapper .map{
+  width:100%;
+  height: 100%;
+  position:relative;
+}
+.wrapper .location, .warn, .avatar{
+  width:150rpx;
+  height:150rpx;
+  position:absolute;
+}
+.wrapper .use{
+  width:200rpx;
+  height: 200rpx;
+  position:absolute;
+  left:50%;
+  bottom:10%;
+  margin-left:-100rpx;
+}
+.wrapper .location{
+  left:8%;
+  bottom:12%;
+}
+.wrapper .warn{
+  right:8%;
+  bottom:12%;
+}
+.wrapper .avatar{
+  right:8%;
+  bottom:30%;
+}
+.wrapper .marker{
+  width:70rpx;
+  height: 100rpx;
+  position:absolute;
+  left:50%;
+  top:50%;
+  margin-left:-35rpx;
+  margin-top:-90rpx;
+}

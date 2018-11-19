@@ -1,0 +1,14 @@
+<!--pages/charging/index.wxml-->
+<view class="wrapper">
+  <view class='header'>当前单车编号:{{number}}</view>
+  <view class="content">
+    <view class='content-title'>正在计费</view>
+    <view class="content-time">
+      {{hour}}:{{min}}:{{secd}}
+    </view>
+  </view>
+  <view class='bottom'>
+      <view class="btn" bindtap="overBtn"><button type="warn">{{btntext}}</button></view>
+      <view class="btn" bindtap="ruturnMap"><button type="primary">回到地图</button></view>
+  </view>
+</view>

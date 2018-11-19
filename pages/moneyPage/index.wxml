@@ -1,0 +1,10 @@
+<!--pages/moneyPage/index.wxml-->
+<view class="wrapper">
+  <view class='title'>请输入充值金额</view>
+  <view class='inputBox'>
+    <input bindinput='inputChange'></input>
+  </view>
+  <view class="btnBox">
+    <button type='primary' bindtap="btnClick">充值</button>
+  </view>
+</view>

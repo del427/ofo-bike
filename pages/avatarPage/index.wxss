@@ -1,0 +1,41 @@
+/* pages/avatarPage/index.wxss */
+.wrapper{
+  width:100%;
+  height: 100vh;
+  background-color:#f2f2f2;
+  position:relative;
+}
+.wrapper .info{
+  background-color:white;
+  font-size:30rpx;
+  text-align: center;
+}
+.info .infoImg{
+  width:150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  margin:90rpx auto 0;
+  border:2rpx solid block;
+  box-shadow: 0rpx 0rpx 20rpx #f2f2f2;
+}
+.info .info-name{
+  padding:40rpx 0 30rpx;
+}
+.infoImg image{
+  width:100%;
+  height: 100%;
+}
+.wrapper .wallet{
+  background-color:white;
+  font-size:30rpx;
+  display: flex;
+  padding:30rpx;
+  margin-top:30rpx;
+  justify-content: space-between;
+}
+.wrapper .bottom{
+  position: absolute;  
+  bottom:10%;
+  width:90%;
+  left:5%;
+}

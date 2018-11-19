@@ -1,0 +1,16 @@
+<!--pages/avatarPage/index.wxml-->
+<view class="wrapper">
+  <view class="info">
+    <block wx:if="{{imgSrc}}"><view class="infoImg"><image src='{{imgSrc}}'></image></view></block>
+    <view class="info-name">{{infoName}}</view>
+  </view>
+  <block wx:if="{{imgSrc}}">
+    <view class="wallet" bindtap="walletPage">
+    <text>我的钱包</text>
+    <text>></text>
+    </view>
+  </block>
+  <view class="bottom">
+    <button type='{{btnType}}' bindtap='btnClick'>{{btnText}}</button>
+  </view>
+</view>

@@ -1,0 +1,9 @@
+{
+  
+    "navigationBarBackgroundColor": "#FFE700",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "单车报障",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+}

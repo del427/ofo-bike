@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/index/index",
+    
+    "pages/walletPage/index",
+    "pages/moneyPage/index",
+    "pages/avatarPage/index",
+    "pages/warnPage/index",
+    "pages/charging/index",
+    "pages/usePage/index"
+
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FFE700",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "ofo",
+    "backgroundColor": "#fff",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  }
+}

@@ -1,0 +1,9 @@
+<!--pages/usePage/index.wxml-->
+<view class="wrapper">
+  <text class='title'>开锁密码</text>
+  <view class="content">{{password}}</view>
+  <view class='bottom'>
+    <view class="text">请使用密码解锁,{{time}}秒后开始计费,</view>
+    <view class='text'>车辆有问题?<text>回首页车辆保障</text></view>
+  </view>
+</view>

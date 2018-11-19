@@ -1,0 +1,25 @@
+<!--pages/warnPage/index.wxml-->
+<view class="wrapper">
+  <view class="title">请选择故障类型</view>
+  <view class="checkbox">
+    <checkbox-group wx:for="{{checkArr}}" wx:key="{{index}}" bindchange="checked">
+      <checkbox checked="{{item.key}}" value='{{item.value}}' class='item'>{{item.value}}</checkbox>
+    </checkbox-group>
+  </view>
+  <view class="title">拍摄单车周围环境,便于维修师傅找车</view>
+  <view class="pic-content" >
+    <block wx:for="{{picArr}}" wx:key="{{index}}">
+      <view class='item'><image src="{{item}}"></image></view>
+    </block>
+    <view class='item'bindtap="addpic">
+      {{picText}}
+    </view>
+  </view>
+  <view class="input-content">
+    <input placeholder="{{inputValue}}" bindinput='inputChange'></input>
+    <input placeholder='备注'></input>
+  </view>
+  <view class="btn-content">
+    <button bindtap='btnClick'>提交</button>
+  </view>
+</view>

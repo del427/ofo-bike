@@ -1,0 +1,52 @@
+/* pages/walletPage/index.wxss */
+.wrapper{
+  width:100%;
+  height:100vh;
+  background: #f2f2f2;
+}
+.wrapper .wallet-content{
+  background:white;
+  text-align: center;
+  font-size:25rpx;
+  color:#a3a3a3;
+  padding-bottom: 30rpx;
+}
+.wallet-content .content-title{
+  padding:40rpx 0 0;
+}
+.wallet-content .content-money{
+  padding:50rpx 0 40rpx;
+  font-size:100rpx;
+  color:black;
+}
+.wallet-content .content-about{
+  border:2rpx solid #a3a3a3;
+  width:15%;
+  margin:0 auto;
+  padding:2rpx 7rpx;
+  border-radius:30rpx;
+}
+.wrapper .wallet-btn{
+  padding:30rpx;
+}
+.wrapper .wallet-title{
+  padding:30rpx;
+  background: white;
+}
+.wrapper .mycar{
+  margin-bottom:4rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper .mymoney{
+  margin-bottom: 40rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.mymoney .color{
+  color:#FFE700;
+}
+.wrapper .mybout{
+  display: flex;
+  justify-content: space-between;
+}

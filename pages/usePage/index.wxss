@@ -1,0 +1,26 @@
+/* pages/usePage/index.wxss */
+.wrapper{
+  width:100%;
+  height:100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction:column;
+  text-align: center;
+}
+.wrapper .title, .bottom{
+  flex:2;
+  font-size:30rpx;
+}
+.wrapper .title{
+  padding:50rpx 0;
+}
+.wrapper .content{
+  flex:6;
+  font-size:150rpx;
+}
+.wrapper .bottom{
+  margin-top:200rpx;
+}
+.bottom .text text{
+  color:#FFE700;
+}

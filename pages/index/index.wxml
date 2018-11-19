@@ -1,0 +1,12 @@
+<!--pages/index/index.wxml-->
+<view class='wrapper'>
+  <map longitude="{{longitude}}" latitude='{{latitude}}'class="map" show-location>
+    <cover-view>
+      <cover-image src="../../images/location.png" bindtap="locationPage" class='location'></cover-image>
+      <cover-image src="../../images/use.png" bindtap="usePage" class='use'></cover-image>
+      <cover-image src="../../images/warn.png" bindtap="warnPage" class="warn"></cover-image>
+      <cover-image src="../../images/avatar.png" bindtap="avatarPage" class="avatar"></cover-image>
+      <cover-image src="../../images/marker.png" class="marker"></cover-image>
+    </cover-view>
+  </map>
+</view>
